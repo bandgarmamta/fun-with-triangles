@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypotenuse</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>home | bandgar mamta</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-<body>
 
+<body>
     <nav class="navigation container">
-        <div class="nav-brand">Fun-with-triangle</div>
+        <div class="nav-brand">Portfolio</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="istriangle.html">IsTriangle</a>
@@ -31,19 +32,37 @@
     </nav>
 
     <header class="hero">
-        <img class="hero-img" src="images/projects.svg">
-        <h1 class="hero-heading">My <span class="heading-inverted">Hypotenuse Calculator</span></h1>
+        <img class="hero-img" src="images/hero.svg">
+        <h1 class="hero-heading">Lets have some fun with <span class="heading-inverted">Triangles!</span></h1>
     </header>
-    
-    <label>Side 1:</label>
-    <input type="number" class="side-input">
 
-    <label>Side 2:</label>
-    <input type="number" class="side-input">
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Is a triangle?</h1>
+            <a class="link link-primary" href="istriangle.html">Test it</a>
+        </div>
+    </section>
 
-    <button id="btn-submit">Submit</button>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Quiz</h1>
+            <a class="link link-primary" href="quiz.html">Test it</a>
+        </div>
+    </section>
 
-    <div id="output"></div>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Hypotenuse Calculator</h1>
+            <a class="link link-primary" href="hypotenuse.html">Read blogs</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Area Calculator</h1>
+            <a class="link link-primary" href="area.html">Test it</a>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="footer-header">connect with me on</div>
@@ -60,7 +79,6 @@
         </ul>
     </footer>
 
-
-    <script src="hypotenuse.js"></script>
 </body>
+
 </html>
