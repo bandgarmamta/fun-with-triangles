@@ -10,6 +10,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin:0px;
+    min-height: 100%;
 }
 
 hr {
@@ -22,8 +23,7 @@ hr {
 }
 .container{
     padding: 0rem 1rem;
-    
-
+    min-height: calc(10vh - 8px);
 }
 
 .container-center{
@@ -37,6 +37,7 @@ hr {
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 .link-primary{
@@ -125,6 +126,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+
 }
 
 .footer .footer-header{
@@ -140,7 +142,6 @@ hr {
 }
 
 input{
-    
     border: 1px solid black;
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -153,4 +154,10 @@ button{
     background-color: var(--dark-gray);
     color: white;
     align-items: center;
+}
+
+#output{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
 }

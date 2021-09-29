@@ -1,5 +1,5 @@
 const sides = document.querySelectorAll(".side-input");
-const hypBtn = document.querySelector("btn-submit");
+const hypBtn = document.querySelector("#btn-submit");
 const outputEl = document.querySelector("#output");
 
 function calculateSumOfSquares(a,b){
