@@ -138,3 +138,19 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+
+input{
+    
+    border: 1px solid black;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+button{
+    margin-top:2rem ;
+    font-size:1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--dark-gray);
+    color: white;
+    align-items: center;
+}
