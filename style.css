@@ -23,7 +23,6 @@ hr {
 }
 .container{
     padding: 0rem 1rem;
-    min-height: calc(10vh - 8px);
 }
 
 .container-center{
